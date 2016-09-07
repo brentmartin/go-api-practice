@@ -19,10 +19,10 @@ type Routes []Route
 
 var routes = Routes{
     Route{
-        "Index",
+        "Home",
         "GET",
         "/",
-        Index,
+        Home,
     },
     Route{
         "TodoIndex",
