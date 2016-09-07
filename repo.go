@@ -8,8 +8,10 @@ var todos Todos
 
 // Give us some seed data
 func init() {
-	RepoCreateTodo(Todo{Name: "Write presentation"})
-	RepoCreateTodo(Todo{Name: "Host meetup"})
+	RepoCreateTodo(Todo{Name: "Create a MySQL db for golang"})
+	RepoCreateTodo(Todo{Name: "Learn how to test in golang")
+	RepoCreateTodo(Todo{Name: "Refactor this file")
+	RepoCreateTodo(Todo{Name: "Make a package to save functions in")
 }
 
 func RepoFindTodo(id int) Todo {
